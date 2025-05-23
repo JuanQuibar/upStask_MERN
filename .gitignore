@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.env
+.DS_Store # Archivos de Mac OS
+
+# Build artifacts
+build/
+dist/
+.parcel-cache/
+.next/ # Para proyectos Next.js específicos (si tu frontend es Next.js)
+
+# Si hay logs
+logs/
+*.log
+
+# Si hay datos de base de datos local
+data/db/
+
+# Para backend (si tienes archivos específicos del backend)
+# npm-debug.log*
+# .env
+
+# Para frontend (si tienes archivos específicos del frontend)
+# build/
+# dist/

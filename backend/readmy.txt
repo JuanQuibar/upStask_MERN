@@ -1,0 +1,5 @@
+Registrar: pide nombre, mail y password. Genera el token de un solo uso con la función helpers/generarId.js.
+
+Confirmar: es un get a /api/usuarios/confirmar/:token. Ese token es el de un solo uso creado en la registración. La función deja el token en blanco y pasa el campo (columna) confirmado a true. (Postman: confirmar vía token)
+
+Autenticar: es el sign in. Genera un jwt que se almacena en el authorization y se comprueba en cada operación que hace ese usuario
