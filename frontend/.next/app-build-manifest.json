@@ -1,9 +1,24 @@
 {
   "pages": {
+    "/(pages)/(rutas-publicas)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(pages)/(rutas-publicas)/layout.js"
+    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
+    ],
+    "/(pages)/(rutas-publicas)/olvide-password/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(pages)/(rutas-publicas)/olvide-password/page.js"
+    ],
+    "/(pages)/(rutas-publicas)/registrar/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(pages)/(rutas-publicas)/registrar/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,20 +26,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/(pages)/(rutas-protegidas)/proyectos/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/(rutas-protegidas)/proyectos/page.js"
-    ],
-    "/(pages)/(rutas-protegidas)/proyectos/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/(rutas-protegidas)/proyectos/layout.js"
-    ],
-    "/(pages)/(rutas-protegidas)/proyectos/nuevo-proyecto/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/(rutas-protegidas)/proyectos/nuevo-proyecto/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }

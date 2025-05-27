@@ -1,6 +1,6 @@
 {
+  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(pages)/(rutas-protegidas)/proyectos/page": "app/(pages)/(rutas-protegidas)/proyectos/page.js",
-  "/(pages)/(rutas-protegidas)/proyectos/nuevo-proyecto/page": "app/(pages)/(rutas-protegidas)/proyectos/nuevo-proyecto/page.js"
+  "/(pages)/(rutas-publicas)/registrar/page": "app/(pages)/(rutas-publicas)/registrar/page.js",
+  "/(pages)/(rutas-publicas)/olvide-password/page": "app/(pages)/(rutas-publicas)/olvide-password/page.js"
 }
